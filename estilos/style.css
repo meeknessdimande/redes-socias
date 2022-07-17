@@ -41,6 +41,28 @@ iframe#tela {
     top: 79px;
     left: 21px;
 
-    width: 85%;
+    width: 85.3%;
     height: 470px;
+}
+
+section#sociais {
+    position: relative;
+    text-align: right;
+    top: 20%;
+    right: 15%;
+}
+
+section#sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514);
+    box-sizing: border-box;
+}
+
+section#sociais img:hover {
+    border: 1px solid rgba(255, 255, 255, 0.322);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+    transition: transform .3s, border 1s;
 }
